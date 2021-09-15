@@ -1,0 +1,11 @@
+<div>
+  <vdot-top-nav (sidenavToggle)="sidenav.toggle()"></vdot-top-nav>
+  <mat-sidenav-container>
+      <mat-sidenav #sidenav position="end">
+          <vdot-side-nav (sidenavClose)="sidenav.toggle()"></vdot-side-nav>
+      </mat-sidenav>
+      <mat-sidenav-content>
+          <router-outlet></router-outlet>
+      </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
