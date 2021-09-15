@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { VideoRoutingModule } from './video-routing.module';
+import { AdminRoutingModule } from './admin-routing.module';
 
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    VideoRoutingModule
+    AdminRoutingModule
   ]
 })
-export class VideoModule { }
+export class AdminModule { }

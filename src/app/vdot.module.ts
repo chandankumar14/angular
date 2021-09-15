@@ -7,8 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './app-material/material.module';
 import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { TopNavComponent } from './shared/components/top-nav/top-nav.component';
-import { SideNavComponent } from './shared/components/side-nav/side-nav.component';
+import { TopNavComponent } from './shared/top-nav/top-nav.component';
+import { SideNavComponent } from './shared/side-nav/side-nav.component';
 import { LoginComponent } from './user/login/login.component';
 
 @NgModule({
@@ -17,7 +17,7 @@ import { LoginComponent } from './user/login/login.component';
     TopNavComponent,
     SideNavComponent,
     HomeComponent,
-    LoginComponent    
+    LoginComponent
   ],
   imports: [
     BrowserModule,
